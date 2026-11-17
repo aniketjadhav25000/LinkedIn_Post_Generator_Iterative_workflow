@@ -24,7 +24,8 @@ import {
 
 export default function App() {
   // Config & State
-  const apiUrl = `${import.meta.env.VITE_API_URL.replace(/\/+$/, "")}/generate`;
+  const API_URL = import.meta.env.VITE_API_URL?.replace(/\/+$/, "");
+
   const [topic, setTopic] = useState('');
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState(null);
@@ -108,10 +109,14 @@ export default function App() {
           setLoopStatus('reviewing');
         }, 2000);
 
-        const response = await fetch(apiUrl, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ topic: topicToRun.trim() }),
+        const response = await fetch(`${API_URL}/generate`, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+                topic: topic,
+            }),
         });
 
         clearTimeout(timer);
