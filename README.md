@@ -1,4 +1,4 @@
-# PostCraft – AI-Powered LinkedIn Post Generator
+# PostCraft : AI-Powered LinkedIn Post Generator
 
 An AI-powered LinkedIn content generator built using **LangGraph, FastAPI, and React**. It uses an iterative multi-agent workflow to generate, review, and refine LinkedIn posts until they meet the required quality standards.
 
