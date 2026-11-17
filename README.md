@@ -2,9 +2,6 @@
 
 An AI-powered LinkedIn content generator built using **LangGraph, FastAPI, and React**. It uses an iterative multi-agent workflow to generate, review, and refine LinkedIn posts until they meet the required quality standards.
 
-**Live Demo:** https://linkedin-post-generator-frontend.onrender.com
-
-**GitHub Repository:** https://github.com/aniketjadhav25000/LinkedIn_Post_Generator_Iterative_workflow
 
 ---
 
