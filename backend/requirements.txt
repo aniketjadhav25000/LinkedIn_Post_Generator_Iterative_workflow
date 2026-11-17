@@ -1,0 +1,15 @@
+# FastAPI Backend
+fastapi
+uvicorn[standard]
+pydantic
+
+# LangGraph
+langgraph
+
+# LangChain Integrations
+langchain-groq
+langchain-google-genai
+langchain-tavily
+
+# Environment Variables
+python-dotenv

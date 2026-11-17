@@ -24,7 +24,7 @@ import {
 
 export default function App() {
   // Config & State
-  const apiUrl = 'http://localhost:8000/generate';
+  const apiUrl = "/api/generate";;
   const [topic, setTopic] = useState('');
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState(null);
