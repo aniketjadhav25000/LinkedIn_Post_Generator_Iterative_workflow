@@ -24,7 +24,7 @@ import {
 
 export default function App() {
   // Config & State
-  const apiUrl = "/api/generate";;
+  const apiUrl = `${import.meta.env.VITE_API_URL}/generate`;
   const [topic, setTopic] = useState('');
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState(null);
