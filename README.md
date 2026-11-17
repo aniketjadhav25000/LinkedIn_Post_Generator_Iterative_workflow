@@ -34,7 +34,10 @@ An AI-powered LinkedIn content generator built using **LangGraph, FastAPI, and R
 | Deployment | Render |
 
 ---
+## Project Workflow
+<img width="1774" height="767" alt="PostCraft LinkedIn Workflow Infographic" src="https://github.com/user-attachments/assets/8c163e02-eaf5-4f2e-b999-fefd41e94b09" />
 
+---
 ## System Architecture
 
 The application follows a frontend-backend architecture with an iterative AI workflow powered by LangGraph.
